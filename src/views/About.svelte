@@ -13,7 +13,7 @@
             <figure class="flex justify-center w-full md:w-1/4 ">
                 <img id="photo"
                     class="w-3/4 md:w-full"
-                    src="./src/img/dcb-perfil.jpg"
+                    src="./src/img/dcb-perfil.png"
                     alt=""
                 />
             </figure>

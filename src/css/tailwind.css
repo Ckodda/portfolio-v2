@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.title {
+    font-family: 'Rampart One', cursive;
+    @apply text-4xl md:text-5xl hover:text-yellow-300 ;
+}
+
+.btns {
+    @apply border-2 p-2 rounded-md text-center hover:text-gray-900 hover:border-transparent transition-all duration-150  hover:bg-yellow-300 ;
+    min-width: 7em;
+}
+
+.primary-text{
+    font-family: 'DotGothic16', sans-serif;
+}
+.secondary-text{
+    font-family: 'Chakra Petch', sans-serif;;
+}

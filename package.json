@@ -7,7 +7,7 @@
         "dev": "rollup -c -w",
         "start": "sirv public --no-clear -s",
         "build:css": "postcss ./src/css/tailwind.css -o ./public/src/css/main.css",
-        "build:css-prod": "NODE_ENV=production postcss ./src/css/tailwind.css -o ./public/src/css/main.css"
+        "build:css-prod": "NODE_ENV=production postcss src/css/tailwind.css -o public/src/css/main.css"
     },
     "devDependencies": {
         "@rollup/plugin-commonjs": "^17.0.0",

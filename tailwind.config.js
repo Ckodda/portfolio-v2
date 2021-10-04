@@ -1,6 +1,6 @@
 module.exports = {
     purge: [
-        './public/**/*.html',
+        './src/**/*.svelte',
     ],
     darkMode: false,
     theme: {

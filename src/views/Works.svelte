@@ -9,7 +9,7 @@
 
         <article class="w-full py-10">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
-                <div class=" p-10">
+                <div class="p-5 md:p-10">
                     <h3 class="text-2xl primary-text">Neon Led Store</h3>
                     <p class="mt-4 text-lg secondary-text">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -23,7 +23,7 @@
                         tempora?
                     </p>
                 </div>
-                <div class="p-10 flex flex-col gap-3 ">
+                <div class="p-5 md:p-10 flex flex-col gap-3 ">
                     <div class="">
                         <Carousel autoplay autoplayDuration={2000}>
                             <img
@@ -44,8 +44,8 @@
                         </Carousel>
                         <!--</1-><img src="./src/img/works/work1.png" class="w-full rounded-lg" alt="">-->
                     </div>
-                    <div class="flex gap-4 justify-center">
-                        <a href="#" class="btns flex gap-3 items-center">
+                    <div class="flex flex-col md:flex-row gap-4 justify-center">
+                        <a href="#" class="btns flex gap-3 items-center justify-center">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 class="h-6 w-6"
@@ -62,7 +62,7 @@
                             </svg>
                             VIEW WEB
                         </a>
-                        <a href="#" class="btns flex gap-3 items-center">
+                        <a href="#" class="btns flex  gap-3 items-center justify-center">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 class="h-6 w-6"
@@ -89,7 +89,7 @@
                 </div>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
-                <div class=" p-10">
+                <div class="p-5 md:p-10">
                     <h3 class="text-2xl primary-text">Digimedia</h3>
                     <p class="mt-4 text-lg secondary-text">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -103,7 +103,7 @@
                         tempora?
                     </p>
                 </div>
-                <div class="p-10 flex flex-col gap-3 ">
+                <div class="p-5 md:p-10 flex flex-col gap-3 ">
                     <div class="">
                         <Carousel autoplay autoplayDuration={2000}>
                             <img
@@ -124,8 +124,8 @@
                         </Carousel>
                         <!--</1-><img src="./src/img/works/work1.png" class="w-full rounded-lg" alt="">-->
                     </div>
-                    <div class="flex gap-4 justify-center">
-                        <a href="#" class="btns flex gap-3 items-center">
+                    <div class="flex flex-col md:flex-row gap-4 justify-center">
+                        <a href="#" class="btns flex gap-3 items-center justify-center">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 class="h-6 w-6"
@@ -142,7 +142,7 @@
                             </svg>
                             VIEW WEB
                         </a>
-                        <a href="#" class="btns flex gap-3 items-center">
+                        <a href="#" class="btns flex gap-3 items-center justify-center">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 class="h-6 w-6"
@@ -169,7 +169,7 @@
                 </div>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
-                <div class=" p-10">
+                <div class="p-5 md:p-10">
                     <h3 class="text-2xl primary-text">Shopping web</h3>
                     <p class="mt-4 text-lg secondary-text">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -183,7 +183,7 @@
                         tempora?
                     </p>
                 </div>
-                <div class="p-10 flex flex-col gap-3 ">
+                <div class="p-5 md:p-10 flex flex-col gap-3 ">
                     <div class="">
                         <Carousel autoplay autoplayDuration={2000}>
                             <img
@@ -204,8 +204,8 @@
                         </Carousel>
                         <!--</1-><img src="./src/img/works/work1.png" class="w-full rounded-lg" alt="">-->
                     </div>
-                    <div class="flex gap-4 justify-center">
-                        <a href="#" class="btns flex gap-3 items-center">
+                    <div class="flex  flex-col md:flex-row gap-4 justify-center">
+                        <a href="#" class="btns flex gap-3 items-center justify-center">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 class="h-6 w-6"
@@ -222,7 +222,7 @@
                             </svg>
                             VIEW WEB
                         </a>
-                        <a href="#" class="btns flex gap-3 items-center">
+                        <a href="#" class="btns flex gap-3 items-center justify-center">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 class="h-6 w-6"

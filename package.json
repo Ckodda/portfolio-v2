@@ -24,6 +24,7 @@
         "autoprefixer": "^10.3.6",
         "postcss-cli": "^9.0.1",
         "sirv-cli": "^1.0.0",
+        "svelte-carousel": "^1.0.16",
         "svelte-routing": "^1.6.0",
         "tailwindcss": "^2.2.16",
         "win-node-env": "^0.4.0"

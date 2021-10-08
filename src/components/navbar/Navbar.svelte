@@ -12,7 +12,7 @@
     <div class="container mx-auto relative">
         <nav class="p-3 flex justify-between items-center secondary-text">
             <div>
-                <div class="text-3xl ">Daniel</div>
+                <Link to="/" class="text-3xl ">Daniel</Link>
             </div>
 
             <ul class="hidden md:flex gap-3 justify-center items-center">
@@ -32,7 +32,7 @@
     </div>
     
 </header>
-<div class="absolute z-50 right-2 top-4 block md:hidden">
+<div class="absolute z-50 right-2 top-4 block md:hidden ">
     <IconMenu {showSideMenu} {toogleMenu} />
 </div>
 {#if showSideMenu}

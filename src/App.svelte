@@ -6,8 +6,15 @@
 	import Works from "./views/Works.svelte";
 </script>
 
-<main class="bg-gray-900 text-white relative z-0">
-	<Router>
+<main class="bg-gradient-to-r from-gray-800 to-gray-900 text-white relative z-0 overflow-hidden">
+
+	<!--
+	<div class="absolute z-0 w-2/4 h-full bg-gray-800">
+
+	</div>
+	-->
+	
+	<Router >
 		<Navbar></Navbar>
 
 		<Route path="/">

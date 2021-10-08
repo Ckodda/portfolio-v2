@@ -3,7 +3,7 @@
     import Carousel from "svelte-carousel";
 </script>
 
-<section class="w-full py-5 md:py-20">
+<section class="relative w-full py-5 md:py-20">
     <div in:fade={{ duration: 500 }} class="container mx-auto">
         <h1 class="title text-center">My Dev's works</h1>
 

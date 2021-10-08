@@ -1,7 +1,7 @@
 <script>
     import { fly } from "svelte/transition";
 </script>
-<section class="w-full py-5 md:py-20">
+<section class="relative w-full py-5 md:py-20">
     <div in:fly={{y:500,duration:500}} class="container mx-auto  flex flex-col  justify-items-center">
         <h1 class="title text-center">Contact Me</h1>
         <div class="py-20 flex justify-center px-5 md:px-0">

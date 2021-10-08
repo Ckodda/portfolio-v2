@@ -3,7 +3,7 @@
     import {Link} from "svelte-routing";
 </script>
 
-<section class="py-5 md:py-20 w-full">
+<section class="relative py-5 md:py-20 w-full">
     <div
         in:fly={{ y: 200, duration: 1000 }}
         class="container flex justify-center items-center  mx-auto h-full"
@@ -12,7 +12,7 @@
             <h2 class="md:hidden  title text-center shadow-sm">About me</h2>
             <figure class="flex justify-center w-full md:w-1/4 ">
                 <img id="photo"
-                    class="w-3/4 md:w-full"
+                    class="w-36  md:w-full h-3/4 md:h-full lg:h-3/4 object-cover"
                     src="./src/img/dcb-perfil.png"
                     alt=""
                 />
@@ -30,8 +30,8 @@
                     <span class="font-bold text-xl">More</span>
                     <aside class="flex justify-center pt-2 flex-col sm:flex-row md:justify-start items-center gap-4">
                         <a href="#tecnologies" class="sm:btns btns w-full font-semibold">Tecnologies</a>
-                        <Link to="/contact" class="sm:btns btns w-full font-semibold">Contactme</Link>
                         <Link to="/works" class="sm:btns btns w-full font-semibold">Works</Link>
+                        <Link to="/contact" class="sm:btns btns w-full font-semibold">Contact</Link>
                     </aside>
                 </div>
             </div>
@@ -42,7 +42,7 @@
 <section class="w-full py-5 md:py-20 relative z-0">
 
     <div class="container mx-auto  border-opacity-10 border-t-2">
-        <h2 class="title flex gap-5 items-center pt-10 text-xs" id="tecnologies">
+        <h2 class="title flex gap-5 items-center pt-10 text-xs justify-center" id="tecnologies">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7" />
               </svg>

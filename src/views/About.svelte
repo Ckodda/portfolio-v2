@@ -33,6 +33,14 @@
                         <Link to="/works" class="sm:btns btns w-full font-semibold">Works</Link>
                         <Link to="/contact" class="sm:btns btns w-full font-semibold">Contact</Link>
                     </aside>
+                    <div class="w-full mt-4">
+                        <a class="btns p-0 m-0 h-full flex gap-2 justify-center" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                              </svg>
+                            Download CV
+                        </a>
+                    </div>
                 </div>
             </div>
             
@@ -49,15 +57,15 @@
             Tecnologies
         </h2>
         <article class="border-opacity-10  border-b-2 mt-10 p-5 rounded-lg grid grid-cols-2 lg:grid-cols-5 md:grid-cols-3 items-center justify-items-center gap-10">
-            <img class="transition duration-200 ease-linear hover:scale-110 transform w-40" src="https://img.icons8.com/fluency/144/000000/github.png"/>
-            <img  class="transition duration-200 ease-linear hover:scale-110 transform w-40" src="https://img.icons8.com/dusk/128/000000/php-logo.png"/>
-            <img  class="transition duration-200 ease-linear hover:scale-110 transform w-40" src="https://img.icons8.com/color/128/000000/javascript--v1.png"/>
-            <img  class="transition duration-200 ease-linear hover:scale-110 transform w-40" src="https://img.icons8.com/color/144/000000/css3.png"/>
-            <img  class="transition duration-200 ease-linear hover:scale-110 transform w-40" src="https://img.icons8.com/color/144/000000/mysql-logo.png"/>
-            <img  class="transition duration-200 ease-linear hover:scale-110 transform w-40" src="https://img.icons8.com/doodle/96/000000/svetle.png"/>
-            <img  class="transition duration-200 ease-linear hover:scale-110 transform w-40" src="https://img.icons8.com/color/96/000000/html-5--v1.png"/>
-            <img class="transition duration-200 ease-linear hover:scale-110 transform w-40" src="https://img.icons8.com/color/96/000000/microsoft-sql-server.png"/>
-            <img class="transition duration-200 ease-linear hover:scale-110 transform w-40" src="https://img.icons8.com/color/96/000000/wordpress.png"/>
+            <img class="transition duration-200 ease-linear hover:scale-110 transform w-40" src="https://img.icons8.com/fluency/144/000000/github.png" alt=""/>
+            <img  class="transition duration-200 ease-linear hover:scale-110 transform w-40" src="https://img.icons8.com/dusk/128/000000/php-logo.png" alt=""/>
+            <img  class="transition duration-200 ease-linear hover:scale-110 transform w-40" src="https://img.icons8.com/color/128/000000/javascript--v1.png"  alt=""/>
+            <img  class="transition duration-200 ease-linear hover:scale-110 transform w-40" src="https://img.icons8.com/color/144/000000/css3.png" alt=""/>
+            <img  class="transition duration-200 ease-linear hover:scale-110 transform w-40" src="https://img.icons8.com/color/144/000000/mysql-logo.png" alt=""/>
+            <img  class="transition duration-200 ease-linear hover:scale-110 transform w-40" src="https://img.icons8.com/doodle/96/000000/svetle.png" alt=""/>
+            <img  class="transition duration-200 ease-linear hover:scale-110 transform w-40" src="https://img.icons8.com/color/96/000000/html-5--v1.png" alt=""/>
+            <img class="transition duration-200 ease-linear hover:scale-110 transform w-40" src="https://img.icons8.com/color/96/000000/microsoft-sql-server.png" alt=""/>
+            <img class="transition duration-200 ease-linear hover:scale-110 transform w-40" src="https://img.icons8.com/color/96/000000/wordpress.png" alt=""/>
         </article>
     </div>
 
